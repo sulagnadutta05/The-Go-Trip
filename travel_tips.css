@@ -1,0 +1,203 @@
+/* navbar starts here */
+body {
+    font-family: 'Inter', sans-serif;
+    /* Using Inter font as per instructions */
+}
+
+.custom-navbar-bg {
+    background-color: #8765d286 !important;
+}
+
+.headimg {
+    width: 5rem;
+    height: 2.5rem;
+}
+
+.branding {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.branding h5 {
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.impbtn {
+    margin-left: 1.8rem;
+}
+
+#login,
+#signup,#logout {
+    background-color: #f97316;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+/* navbar ends here */
+
+
+/* Blog content specific styling */
+.blog-post {
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+}
+
+.blog-post img {
+    border-radius: 10px;
+}
+
+.container h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+.container h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+/* newsletter section starts here  */
+.newsletter-text {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.newsletter-section {
+  background-color: #f4f7f9;
+  padding: 3rem 0;
+}
+
+.newsletter-section h3 {
+  color: #172a5a;
+}
+
+.newsletter-section .form-control {
+  border-radius: 20px;
+}
+
+.newsletter-section .btn {
+  background-color: #f7a61d;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem 2rem;
+}
+
+/* newsletter section ends here  */
+
+/* Footer section */
+
+.footer {
+  position: relative;
+  background-color: #0d224e;
+  color: white;
+  overflow: hidden;
+}
+
+.footer-background-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  opacity: 0.8;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.logo-bottom-text {
+  margin-top: 2rem;
+}
+
+.social-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-top: 1rem;
+}
+
+.social-icon:hover {
+  background-color: #ff8c00;
+  border-color: #ff8c00;
+  color: white;
+}
+
+.contact-list i {
+  color: #ff8c00;
+  width: 20px;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #ff8c00;
+}
+
+.footer .list-unstyled li {
+  margin-bottom: 0.75rem;
+}
+
+.footer h4 {
+  margin-bottom: 1.5rem;
+}
+
+.footer-copyright {
+  border-top: 1px solid #343a40;
+  color: #adb5bd;
+}
+
+/* end of footer */
+
+/* Back to top button */
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ff8c00;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  z-index: 1000;
+}
+
+.back-to-top a {
+  color: #ffffff;
+}
+
+.back-to-top a:hover {
+  color: #ffffff;
+}
+
+.back-to-top:hover {
+  background-color: #e07b00;
+  transform: translateY(-3px);
+}
+
+/* end of back to top */
